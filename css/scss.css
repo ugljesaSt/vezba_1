@@ -6,4 +6,20 @@ h2 {
   color: grey;
 }
 
+.navbar {
+  background: black;
+  height: 2.6em;
+  text-align: right;
+}
+.navbar ul {
+  text-decoration: none;
+}
+.navbar ul li {
+  display: inline-block;
+  color: white;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.3em;
+}
+
 /*# sourceMappingURL=scss.css.map */
