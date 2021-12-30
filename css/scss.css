@@ -6,6 +6,11 @@ h2 {
   color: grey;
 }
 
+body {
+  padding: 0, 10% 10% 10%;
+  border: 1px solid black;
+}
+
 .navbar {
   background: black;
   height: 2.6em;
@@ -20,6 +25,31 @@ h2 {
   font-size: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0.3em;
+}
+
+section {
+  height: 300px;
+}
+section .sidebar {
+  display: inline-block;
+  width: 25%;
+  clear: both;
+}
+section .sidebar a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 0.2em;
+}
+section .content {
+  float: right;
+  text-align: justify;
+  width: 75%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+section .content h1 {
+  text-align: right;
 }
 
 /*# sourceMappingURL=scss.css.map */
